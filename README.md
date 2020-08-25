@@ -125,8 +125,5 @@ Integration test contains a real test to test the api. Change describe.skip() to
                  type: string
      `
  ##### Curl
- `curl --location \ 
- --request POST 'http://localhost:3000/api/send-email' \
- --header 'Content-Type: application/json' \
- --data '{"to":[{"email":"INSERT_EMAIL_HERE","name":"INSERT_NAME_HERE"}],"subject":"Test","body":"test body"}'`
+ `curl --location --request POST 'http://localhost:3000/api/send-email'  --header 'Content-Type: application/json' --data '{"to":[{"email":"INSERT_EMAIL_HERE","name":"INSERT_NAME_HERE"}],"subject":"Test","body":"test body"}'`
   
