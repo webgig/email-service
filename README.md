@@ -4,11 +4,23 @@ An api to send email with failover.
 The application provides an abstraction between two email services. 
 If one service goes down, the service switches to another email service configured.
 
-### To run the service
-``yarn start``
+### To Setup
+Run the following
 
+`$ git clone https://github.com/webgig/email-service`
+`$ cd email-service`
+`$ yarn`
 ### To test
 ``yarn test``
+
+### To Build
+Run 
+`yarn build`
+
+### To run the service
+Local `yarn start:dev`
+
+Production `yarn start` , runs the build as well
 
 Integration test contains a real test to test the api. Change describe.skip() to describe() to test.
 
