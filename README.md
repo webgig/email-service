@@ -12,6 +12,7 @@ Run the following
 `$ yarn`
 ### To test
 ``yarn test``
+Integration test contains a real test to test the api. Change describe.skip() to describe() to test.
 
 ### To Build
 Run 
@@ -22,10 +23,11 @@ Local `yarn start:dev`
 
 Production `yarn start` , runs the build as well
 
-Integration test contains a real test to test the api. Change describe.skip() to describe() to test.
 
 ### Environment Variables
-- Uses dotenv to load .env file, alternatively use export.
+- .env file
+- export can be used locally
+- dotenv has been configured to load .env file.
  
 ````  
    SENDGRID_API_KEY = ""
