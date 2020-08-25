@@ -2,7 +2,7 @@
 An api to send email with failover. 
 
 The application provides an abstraction between two email services. 
-If one service goes down, the service switches to another email service provided.
+If one service goes down, the service switches to another email service configured.
 
 ### To run the service
 ``yarn start``
